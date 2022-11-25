@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3js test</title>
+</head>
+<body>
+    <style>body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.create-panel {
+  position: fixed;
+}
+
+ul {
+  width: 30vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+li {
+  background-color: #fff;
+  justify-content: space-between;
+  display: flex;
+}
+
+</style>
+    <div class="create-panel">
+        <select id="geometry-type">
+            <option value="box">Box</option>
+            <option value="sphere">Sphere</option>
+            <option value="pyramid">Pyramid</option>
+        </select>
+        <input type="number">
+        <button id="create-geometry">Create</button>
+    </div>
+    <ul id="uuid-list"></ul>
+    <script src="/index.18dbc454.js" defer=""></script>
+</body>
+</html>
